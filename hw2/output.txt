@@ -1,0 +1,48 @@
+n
+(a,a)(a,b)(a,e)(b,b)(b,e)(c,c)(c,d)(d,d)(e,e)
+Reflexive: Yes, all elements are present.For example: (e,e)
+Symmetric: No, a,b is found whereas b,a is not found.
+Antisymmetric: Yes, (a,b) is found whereas (b,a) is not found.
+Transitive: Yes, (a,e) is found since (a,b) and (b,e) are found
+n
+(a,a)(a,b)(b,a)(b,b)(c,c)(c,d)(d,c)(d,d)
+Reflexive: (e,e)not found
+Symmetric: Yes,Symmetric For example:(c,d) and (d,c)
+Antisymmetric: No, (b,a) is found (a,b) is found.
+Transitive: Yes, (d,d) is found since (d,c) and (c,d) are found
+n
+(a,a)(b,b)(c,c)(d,d)(e,e)
+Reflexive: Yes, all elements are present.For example: (e,e)
+Symmetric: Yes,Symmetric For example:(a,a) does not disrupt Symmetric.
+Antisymmetric: Yes, For example:(a,a) does not disrupt antisymmetric.
+Transitive: Yes, because all values are reflexive.
+n
+(1,1)(1,2)(2,1)
+Reflexive: (2,2)not found
+Symmetric: Yes,Symmetric For example:(1,2) and (2,1)
+Antisymmetric: No, (2,1) is found (1,2) is found.
+Transitive: Yes, (1,1) is found since (1,2) and (2,1) are found
+n
+(1,1)(1,2)(2,1)(2,2)(3,4)(4,1)(4,4)
+Reflexive: (3,3)not found
+Symmetric: No, 3,4 is found whereas 4,3 is not found.
+Antisymmetric: No, (2,1) is found (1,2) is found.
+Transitive: Yes, (2,2) is found since (2,1) and (1,2) are found
+n
+(2,1)(3,1)(3,2)(4,1)(4,2)(4,3)
+Reflexive: (1,1)not found
+Symmetric: No, 2,1 is found whereas 1,2 is not found.
+Antisymmetric: Yes, (2,1) is found whereas (1,2) is not found.
+Transitive: Yes, (4,2) is found since (4,3) and (3,2) are found
+n
+(1,1)(1,2)(1,3)(1,4)(2,2)(2,3)(2,4)(3,3)(3,4)(4,4)
+Reflexive: Yes, all elements are present.For example: (4,4)
+Symmetric: No, 1,2 is found whereas 2,1 is not found.
+Antisymmetric: Yes, (1,2) is found whereas (2,1) is not found.
+Transitive: There is not transistive.
+n
+(1,1)(1,2)(1,4)(2,1)(2,2)(3,3)(4,1)(4,4)
+Reflexive: Yes, all elements are present.For example: (4,4)
+Symmetric: Yes,Symmetric For example:(1,4) and (4,1)
+Antisymmetric: No, (2,1) is found (1,2) is found.
+Transitive: Yes, (4,4) is found since (4,1) and (1,4) are found
